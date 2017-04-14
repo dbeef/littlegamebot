@@ -26,6 +26,7 @@ public class Main {
         System.setProperty("webdriver.gecko.driver", "/home/dbeef/Downloads/geckodriver");
         profile.setPreference("webdriver.gecko.driver", "/home/dbeef/Downloads/geckodriver");
 
+        //
         log.info("Loading AdBlock.");
         File f = new File("/home/dbeef/addon-1865-latest.xpi");
         profile.addExtension(f);
